@@ -14,6 +14,14 @@ Each pet is packaged as a Codex-compatible `spriteVersionNumber: 2` atlas:
 
 Original yellow long-eared assistant pet with a blank gold coin prop. Its active-task animation flips the coin between its paws.
 
+Animation preview:
+
+![Voltcoin animation contact sheet](qa/voltcoin/contact-sheet-extended.png)
+
+Look directions:
+
+![Voltcoin look directions](qa/voltcoin/look-directions.png)
+
 Install:
 
 ```bash
@@ -23,6 +31,14 @@ Install:
 ### Marmalade
 
 Original lazy orange tabby assistant pet with sleepy expression and no coin or Bitcoin prop.
+
+Animation preview:
+
+![Marmalade animation contact sheet](qa/marmalade/contact-sheet-extended.png)
+
+Look directions:
+
+![Marmalade look directions](qa/marmalade/look-directions.png)
 
 Install:
 
