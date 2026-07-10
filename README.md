@@ -18,10 +18,6 @@ Animation preview:
 
 ![Voltcoin animation contact sheet](qa/voltcoin/contact-sheet-extended.png)
 
-Look directions:
-
-![Voltcoin look directions](qa/voltcoin/look-directions.png)
-
 Install:
 
 ```bash
@@ -35,10 +31,6 @@ Original lazy orange tabby assistant pet with sleepy expression and no coin or B
 Animation preview:
 
 ![Marmalade animation contact sheet](qa/marmalade/contact-sheet-extended.png)
-
-Look directions:
-
-![Marmalade look directions](qa/marmalade/look-directions.png)
 
 Install:
 
