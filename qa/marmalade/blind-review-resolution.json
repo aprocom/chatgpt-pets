@@ -1,0 +1,12 @@
+{
+  "decision": "accept_with_disclosure",
+  "severity": "process_warning",
+  "reviewed_by": "parent",
+  "reason": "Independent blind QA could not run due usage limits; deterministic atlas validation passed and labeled normal-size direction review found no hard cardinal or quadrant failures.",
+  "accepted_warnings": [
+    "Row 10 is slightly more compact than row 9 after repair for edge safety; labeled directions still read correctly.",
+    "Continuity metrics report larger transitions at 157.5->180 and 337.5->000; visual review did not find a blocking reversal or broken silhouette.",
+    "Transparent interior-hole warnings correspond to normal negative spaces around ears/outline after alpha extraction, not visible seam bands in the focused QA sheet."
+  ],
+  "not_blind": true
+}

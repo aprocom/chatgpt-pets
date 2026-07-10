@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/orange-cat/run",
+  "spritesheet": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/orange-cat/run/final/spritesheet-extended.webp",
+  "validation": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/orange-cat/run/final/validation-extended.json",
+  "chroma_despill": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/orange-cat/run/qa/chroma-despill-extended.json",
+  "contact_sheet": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/orange-cat/run/qa/contact-sheet-extended.png",
+  "direction_sheet": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/orange-cat/run/qa/look-directions.png",
+  "direction_semantics": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/orange-cat/run/qa/direction-semantics.json",
+  "blind_direction_validation": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/orange-cat/run/qa/direction-blind-validation.json",
+  "blind_review_resolution": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/orange-cat/run/qa/blind-review-resolution.json",
+  "continuity": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/orange-cat/run/qa/look-continuity.json",
+  "review": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/orange-cat/run/qa/review.json",
+  "package": "${CODEX_HOME:-$HOME/.codex}/pets/marmalade",
+  "notes": [
+    "Repo QA files include a documented non-blind fallback because subagent blind QA failed from usage limits."
+  ]
+}

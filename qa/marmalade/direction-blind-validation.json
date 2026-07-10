@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "errors": [
+    "independent blind direction QA was not completed because spawned QA agents hit the account usage limit"
+  ],
+  "warnings": [
+    "parent performed labeled visual review and recorded an explicit resolution instead"
+  ],
+  "reviewRequired": true,
+  "external_blocker": "subagent usage limit",
+  "cardinal_labeled_review": "000 up, 090 right, 180 down, and 270 left are readable in qa/look-directions.png"
+}

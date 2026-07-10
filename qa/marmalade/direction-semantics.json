@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "reviewed_by": "parent",
+  "review_method": "labeled normal-size visual review of qa/look-directions.png after subagent blind QA was unavailable due usage limits",
+  "directions": [
+    {
+      "direction": "000",
+      "expected": "up",
+      "verdict": "pass",
+      "observed": "vertical up",
+      "reason": "pupils and eyelids aim upward while the body stays front-facing"
+    },
+    {
+      "direction": "022.5",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "right + up",
+      "reason": "pupils drift up and screen-right; head is slightly lifted"
+    },
+    {
+      "direction": "045",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "right + up",
+      "reason": "face and pupils continue the up-right arc"
+    },
+    {
+      "direction": "067.5",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "right + up",
+      "reason": "pose approaches the right cardinal while retaining upward eye cue"
+    },
+    {
+      "direction": "090",
+      "expected": "right",
+      "verdict": "pass",
+      "observed": "horizontal right",
+      "reason": "nose and pupils are clearly toward screen-right"
+    },
+    {
+      "direction": "112.5",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "right + down",
+      "reason": "head/eyes move below the right cardinal into lower-right attention"
+    },
+    {
+      "direction": "135",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "right + down",
+      "reason": "sleepy eyes and muzzle angle stay in the down-right quadrant"
+    },
+    {
+      "direction": "157.5",
+      "expected": "down-right",
+      "verdict": "warning",
+      "observed": "right + down",
+      "reason": "direction reads as lower-right but transition into 180 is a larger visual step"
+    },
+    {
+      "direction": "180",
+      "expected": "down",
+      "verdict": "pass",
+      "observed": "vertical down",
+      "reason": "pupils and eyelids sit low; front pose reads as looking downward"
+    },
+    {
+      "direction": "202.5",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "left + down",
+      "reason": "eyes and muzzle begin moving toward screen-left while staying low"
+    },
+    {
+      "direction": "225",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "left + down",
+      "reason": "head and gaze continue in the down-left quadrant"
+    },
+    {
+      "direction": "247.5",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "left + down",
+      "reason": "pose approaches left cardinal with downward sleepy gaze"
+    },
+    {
+      "direction": "270",
+      "expected": "left",
+      "verdict": "pass",
+      "observed": "horizontal left",
+      "reason": "side-facing head, nose, and pupils point screen-left"
+    },
+    {
+      "direction": "292.5",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "left + up",
+      "reason": "head turns back from left with gaze lifting toward up-left"
+    },
+    {
+      "direction": "315",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "left + up",
+      "reason": "eyes and head remain in the up-left quadrant"
+    },
+    {
+      "direction": "337.5",
+      "expected": "up-left",
+      "verdict": "warning",
+      "observed": "left + up",
+      "reason": "reads as up-left, but continuity metric flags a larger wrap step back to 000"
+    }
+  ],
+  "warnings": [
+    "Row 10 is slightly more compact than row 9 after repair for edge safety; labeled directions still read correctly.",
+    "Continuity metrics report larger transitions at 157.5->180 and 337.5->000; visual review did not find a blocking reversal or broken silhouette.",
+    "Transparent interior-hole warnings correspond to normal negative spaces around ears/outline after alpha extraction, not visible seam bands in the focused QA sheet."
+  ]
+}
