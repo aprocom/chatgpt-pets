@@ -1,0 +1,14 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "failed_checks": [
+    "horizontal-3 A intermediate 292.5 classified screen-right instead of screen-left",
+    "horizontal-7 A intermediate 202.5 classified ambiguous",
+    "vertical-4 A intermediate 112.5 classified ambiguous",
+    "vertical-7 A/B intermediate vertical axes classified ambiguous"
+  ],
+  "labeled_evidence": "Hard cardinal blind pairs pass: 090 right vs 270 left and 000 up vs 180 down. Labeled look-directions sheet shows a coherent front-facing gaze loop; warnings occur only on intermediate directions near vertical/horizontal transitions at small size.",
+  "continuity_evidence": "qa/look-continuity.json has ok=true with reviewRequired warnings but no hard failures. validate_atlas --require-v2 and chroma despill both pass.",
+  "notes": "Intermediate ambiguity is accepted under the hatch-pet direction acceptance policy; no wrong cardinal or labeled wrong-quadrant hard failure remains."
+}

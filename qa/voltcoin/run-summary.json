@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/electric-coin/run",
+  "spritesheet": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/electric-coin/run/final/spritesheet-extended.webp",
+  "validation": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/electric-coin/run/final/validation-extended.json",
+  "chroma_despill": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/electric-coin/run/qa/chroma-despill-extended.json",
+  "contact_sheet": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/electric-coin/run/qa/contact-sheet-extended.png",
+  "direction_sheet": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/electric-coin/run/qa/look-directions.png",
+  "direction_semantics": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/electric-coin/run/qa/direction-semantics.json",
+  "blind_direction_validation": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/electric-coin/run/qa/direction-blind-validation.json",
+  "blind_review_resolution": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/electric-coin/run/qa/blind-review-resolution.json",
+  "continuity": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/electric-coin/run/qa/look-continuity.json",
+  "review": "/Users/alex/Documents/Codex/2026-07-10/new-chat/work/pets/electric-coin/run/qa/review.json",
+  "package": "/Users/alex/.codex/pets/voltcoin"
+}
