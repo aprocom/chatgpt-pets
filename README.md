@@ -38,6 +38,21 @@ Install:
 ./scripts/install-marmalade.sh
 ```
 
+
+### Iron Man
+
+3D Funko Pop / Anime Nendoroid Iron Man (Tony Stark) with openable Mark 85 visor, reactive cyan repulsors, and 360° cursor tracking (v2).
+
+Preview:
+
+![Iron Man preview](assets/ironman-preview.png)
+
+Install:
+
+```bash
+./scripts/install-ironman.sh
+```
+
 ## Manual Install
 
 Codex looks for custom pets under:
